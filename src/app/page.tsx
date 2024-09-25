@@ -49,7 +49,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mb-12 text-2xl text-gray-300 max-w-xl mx-auto">
-                Harness the power of AI with Meta's flagship model, Llama 3.1 405b with NextJS.
+                Harness the power of AI with Meta&apos;s flagship model, Llama 3.1 405b with NextJS.
               </p>
               
               <div className="flex justify-center space-x-4">
