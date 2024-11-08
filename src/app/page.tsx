@@ -48,8 +48,8 @@ export default function Home() {
                   Llama AI
                 </span>
               </h1>
-              <p className="mb-12 text-2xl text-gray-300 max-w-xl mx-auto">
-                Harness the power of AI with Meta&apos;s flagship model, Llama 3.1 405b with NextJS.
+              <p className="mb-10 text-2xl text-gray-300 max-w-xl mx-auto">
+                Web-based AI Coder powered by Meta&apos;s AI model, Llama 3.1 405b with NextJS.
               </p>
               
               <div className="flex justify-center space-x-4">
@@ -76,6 +76,9 @@ export default function Home() {
       <section id="chat" ref={chatSectionRef} className="w-full min-h-screen flex flex-col">
         <div className="flex-grow bg-gradient-to-r from-gray-800 to-gray-900 p-8">
           <div className="mx-auto w-full max-w-[800px]">
+          <p className="ml-1 mb-2 text-lg text-gray-300 text-left mx-auto">
+            Note: This is a just a demo application with rate limited responses. 
+          </p> 
           <form
             onSubmit={handleFormSubmit}
             className="flex items-center space-x-4 mb-6"
