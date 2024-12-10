@@ -5,9 +5,16 @@ export async function POST(req: Request) {
   const reqBody = await req.json();
   const prompt = reqBody.data.prompt;
 
+  // Sambanova API Provider
+  // const openai = createOpenAI({
+  //   baseURL: "https://api.sambanova.ai/v1/",
+  //   apiKey: process.env.SAMBANOVA_API_KEY,
+  // });
+
+  // GLHF API Provider
   const openai = createOpenAI({
-    baseURL: "https://api.sambanova.ai/v1/",
-    apiKey: process.env.SAMBANOVA_API_KEY,
+    baseURL: "https://glhf.chat/api/openai/v1",
+    apiKey: process.env.GLHF_API_KEY,
   });
 
   const systemInstructions = `
@@ -24,7 +31,7 @@ export async function POST(req: Request) {
   `;
 
   const result = await streamText({
-    model: openai("Meta-Llama-3.1-405B-Instruct"),
+    model: openai("hf:meta-llama/Meta-Llama-3.1-405B-Instruct"), // Change this according to the format of your API provider
     prompt: `${systemInstructions}\n\n${prompt}`,
   });
 
