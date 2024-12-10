@@ -1,12 +1,12 @@
 # AI Coder
 
-**AI Coder** is a simple website created using Next.js, integrated with Llama 405B for React.js code generation. This project was developed as an experiment to explore the capabilities of Llama 405B. This is heavily inspired by [LlamaCoder](https://github.com/llama-coder). However, instead of using Together.AI, I opted for the SambaNova for cloud-based inference of Llama 405B.
+**AI Coder** is a simple website created using Next.js, integrated with Llama 405B for React.js code generation. This project was developed as an experiment to explore the capabilities of Llama 405B. This is heavily inspired by [LlamaCoder](https://github.com/llama-coder).
 
 ## Features
 
 - **Next JS**: Utilizes a front-end library Next JS for building user interfaces.
 - **Llama 405B AI Integration**: Generates code in React JS with the use prompts.
-- **SambaNova**: the fastest, cloud-based inference platform on Llama 405B.
+- **OpenAI Compatible**: Can be used with OpenAI compatible API inferences.
 
 ## Purpose
 
