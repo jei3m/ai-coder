@@ -1,6 +1,6 @@
 # AI Coder
 
-![aicoder](https://github.com/user-attachments/assets/6a7de67c-cc79-4f51-891a-b761455166e4)
+![aicoder](https://github.com/user-attachments/assets/bcf2a199-b0bb-4bcb-8d81-64f33f9a16fb)
 
 **AI Coder** is a simple website created using Next.js, integrated with Llama 405B for React.js code generation. This project was developed as an experiment to explore the capabilities of Llama 405B. This is heavily inspired by [LlamaCoder](https://github.com/llama-coder).
 
