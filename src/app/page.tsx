@@ -33,48 +33,48 @@ export default function Home() {
   <main className="min-h-screen bg-gray-900 text-gray-100">
 
     {/*Hero Section */}
-    <section className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-24">
-            <div className="container mx-auto px-6 text-center">
-                <div className="mb-4 inline-flex items-center justify-center border border-white rounded-lg px-3 py-1">
-                  <span className="text-gray-300 text-md">
-                    Powered by <span className="font-medium text-white">Llama 3.1</span> and{" "}
-                    <span className="font-medium text-white">NextJS</span>
-                  </span>
-                </div>
-              <h1 className="mb-4 text-5xl font-extrabold leading-tight tracking-tight">
-                Create {" "} <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
-                React </span> components with 
-                <span className="ml-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
-                  Llama AI
-                </span>
-              </h1>
-              <p className="mb-10 text-2xl text-gray-300 max-w-xl mx-auto">
-                Web-based AI Coder powered by Meta&apos;s AI model, Llama 3.1 405b with NextJS.
-              </p>
-              
-              <div className="flex justify-center space-x-4">
-                <a
-                  href="#chat"
-                  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-900 transition duration-300"
-                >
-                  Start Coding
-                </a>
-                <a
-                  href="https://github.com/jei3m"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-gray-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-800 transition duration-300"
-                >
-                  <FontAwesomeIcon icon={faGithub} className="mr-2" />
-                  View on GitHub
-                </a>
-              </div>
+    <section className="bg-gray-900 text-white py-24">
+        <div className="container mx-auto px-6 text-center">
+            <div className="mb-4 inline-flex items-center justify-center border border-white rounded-lg px-3 py-1">
+              <span className="text-gray-300 text-md">
+                Powered by <span className="font-medium text-white">Llama 3.1</span> and{" "}
+                <span className="font-medium text-white">NextJS</span>
+              </span>
             </div>
+          <h1 className="mb-4 text-5xl font-extrabold leading-tight tracking-tight">
+            Create {" "} <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
+            React </span> components with 
+            <span className="ml-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">
+              Llama AI
+            </span>
+          </h1>
+          <p className="mb-10 text-2xl text-gray-300 max-w-xl mx-auto">
+            Web-based AI Coder powered by Meta&apos;s AI model, Llama 3.3 70b with NextJS.
+          </p>
+          
+          <div className="flex justify-center space-x-4">
+            <a
+              href="#chat"
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center font-bold hover:bg-blue-900 transition duration-300"
+            >
+              Start Coding
+            </a>
+            <a
+              href="https://github.com/jei3m"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-700 text-white px-8 py-3 rounded-lg items-center font-bold hover:bg-gray-800 transition duration-300"
+            >
+              <FontAwesomeIcon icon={faGithub} className="mr-2" />
+              View on GitHub
+            </a>
+          </div>
+        </div>
        </section>
 
        {/* Chat Section */}
       <section id="chat" ref={chatSectionRef} className="w-full min-h-screen flex flex-col">
-        <div className="flex-grow bg-gradient-to-r from-gray-800 to-gray-900 p-8">
+        <div className="flex-grow p-8">
           <div className="mx-auto w-full max-w-[800px]">
           <p className="ml-1 mb-2 text-lg text-gray-300 text-left mx-auto">
             Note: This is a just a demo application with rate limited responses. 
