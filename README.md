@@ -7,7 +7,7 @@
 ## Features
 
 - **Next JS**: Utilizes a front-end library Next JS for building user interfaces.
-- **Llama 405B AI Integration**: Generates code in React JS with the use prompts.
+- **Llama AI Integration**: Generates code in React JS with the use prompts.
 - **OpenAI Compatible**: Can be used with OpenAI compatible API inferences.
 
 ## Purpose
