@@ -32,7 +32,7 @@ To get started with the AI Coder, follow these steps:
     ```env
     SAMBANOVA_API_KEY=your_sambanova_api_key
     ```
-
+ 
 5. Start the development server:
    ```bash
    npm run dev
